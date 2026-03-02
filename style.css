@@ -1,0 +1,23 @@
+#header,#footer{
+    background-color: black;
+    color: white;
+    text-align: center;  
+}
+#menubar{
+    background-color: aqua;   
+}
+#menubar>ul>li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 0 0 50px;
+    text-align: center;
+}
+#menubar>ul>li>a{
+    text-decoration: none;
+    color: brown;
+}
+#menubar>ul>li>a:hover{
+    background-color: brown;
+    color: aqua;
+    
+}
